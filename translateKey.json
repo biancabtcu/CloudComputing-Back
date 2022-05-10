@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "peerless-summit-349615",
+  "private_key_id": "fb3e516af978b8e3e038cbc5fac42aa463076f08",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtwAQvBDvXpVr+\nQZkYi3y5cPwQG/YBjW+VjHEZrKqz94FXECaAPBFwmc1K0HbArv6mLpXtfNkoi1Tx\n13QFZa56KFOnzFJp7XnYvQyOyvB5WmMBf6jS+48qcjy6JaDENdU79qTUODbPdlzj\n+ZyLXoq6OH+Fvx/Ra4OavviDrSj5MlqrMFUZU0V/O3K0m1NqeC6kNilwCVb1gcjm\nHazDEJjUkjMvGR1IFDlfb58L0+7xFVrasRP9IaCcNQto0dKFqSMMIsO+kZvcUKXN\nCi9He/Df7JYi+ex5KoAyvw6VhvYLpLGiJz0JiF55TIJqx5igSjFVMsXpHH4yHkI5\njRFb+yfFAgMBAAECggEASUj82sHr5cS6kRSlGOu4s1T7FGZeyH/aCVd/2ubv51Gl\nbc4Dl0H+zyIoK36rIBGPmhN7LHzk8Yt3TDxmlOIzChZZVqTBPCmso6T1l4L0lBLy\nQI8Sa88sLyiZAaDeYvQb2RtqoZKGV9IiUwwVIdnCJNKwwv5+0quJCmuzUYLnjdej\nmfT6Icb0+sZzz99M4zhozvnDOzmqrydtYDrqSRCxCcMwPOfSm4wMql00Mx6GBYBo\nu/Hq9PakO3HBw+Ut4jpBQ7lmVXTE3sl6IWiPIyJ0VVMjoTvdI4ICT/XS3cjwmD4O\nxtE5kUmvlxqatkaFCUfew8PL3rodTnsdY27E5j0cjwKBgQDfwX+l2aQMC/OOahc7\n412Gr1/KI9yXAeKXS9+J07jCq988WifuJZMjiwQf7mrjqetaHATk60yHsx5vSR9Z\n6lEBF9rk0/DUJR0BzqKQkC/cwkZD+m+91JZWv5JozRTvRB/9uUuuVNvN+thu9Cp6\n1Nt1dQ1qj6pzQEfrJwHZicx3FwKBgQDGycVkPaHfRdeESZkcuRjxSEBgplixz8Vm\ncLVnyWobldM+ZpYWUPTbOMBSsOaLaOOWrJRiPQQZp7zKBAtEw5d7t7dcKQ0yY5zI\nW8mOQwl/BfzihrYaqcqYgAN/W5B/IoyIaU8h5s6ESi6VGfHsCo6dZDMMUc9R/FcP\ntxf3FynhgwKBgE+aFCJZih3rBousvHVGztgCfg54sZpbRlRS3sS2uK0w3esnm7sC\nTRVA+IevlwFFSwA0pZ0XBJPmKjanCetAC+9aoDn2GGAwj+A7teO+F/jueHbommYr\nQgy8fIaiJwdz8fmeuQjdEZF24xad8JrgLO7dZJd7YsU7ohpLN0I/3qijAoGBAJN6\nbAxTQT1xBlQpegN6O0v+a2yI3PKGD5BRe/QU1LjEbeU0nJLP2uis8NooTdINrhNB\n1BAR7nHOJNzHJUkNxtvNT6Z6+kRw7IckuaLmjywC2DuC76VWZGzBRFb/KnN3wUUO\nw9uF7Z7tniOWDQouRuHzzX+NTj8n87s//fKd579bAoGBAI1MqDTifrsJtKPbMwbS\nKWo/WtMtHsYvggvay740hOqLEtrU42uATSMDMGrmoVCd03YuzO2Dfr5afNWkPWqd\nTkEkXDQte1qR8n6o3IcaxufoBgxOfqxzrbcs8KT86Yl3mRMkIeC9TP1mlKdv14Yj\nBfdJ5MzgiLrUU79jKGwbiUt4\n-----END PRIVATE KEY-----\n",
+  "client_email": "cc-translate-usage@peerless-summit-349615.iam.gserviceaccount.com",
+  "client_id": "107368158927882080773",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cc-translate-usage%40peerless-summit-349615.iam.gserviceaccount.com"
+}
