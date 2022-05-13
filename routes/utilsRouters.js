@@ -42,7 +42,7 @@ router.get("/translate", async (req,res)=>{
         }
         
         sendMail(receiverMail,senderMail,messageContent, `${senderName} has sent you a message`);
-        res.send(200);
+        res.send(messageContent);
     });
 
     router.get("/labels", async (req, res) => {

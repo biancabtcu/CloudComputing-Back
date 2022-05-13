@@ -64,6 +64,31 @@ router.get("/", (req, res) => {
     });
   });
 
+
+  router.post("/send", (req,res) => {
+    const {senderName, senderMail, receiverMail, messageContent}= req.body;
+    if(!senderName||!senderMail||!receiverMail||!messageContent){
+        return res.status(400).send("Missing Parameters");
+    }
+    
+    sendMail(receiverMail,senderMail,messageContent, `${senderName} has sent you a message`);
+    
+    const queryString = `INSERT INTO messages (senderName, senderMail, receiverMail, messageContent) VALUES (${mysql.escape(
+      senderName
+    )}, ${mysql.escape(senderMail)}, ${mysql.escape(
+      receiverMail
+    )}, ${mysql.escape(messageContent)})`;
+  
+    connection.query(queryString, (err, results) => {
+      if (err) {
+        return res.send(err);
+      }
+  
+      return res.json({
+         messageContent
+      });
+    });
+});
 //delete a message
 router.delete("/:id", (req, res) => {
     const { id } = req.params;
