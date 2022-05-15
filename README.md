@@ -1,15 +1,21 @@
 Introducere
 
 Weather Subscription App este o aplicație web care poate fi folosită în scopul gestionării abonamentelor de prognoza meteo în funcție de locația aleasă, dar și pentru a promova serviciul propus. Această aplicație utilizează patru servicii în cloud, și anume:
-•	Google Cloud Platform – folosit pentru asigurarea unei baze de date SQL;
-•	SendGrid – folosit pentru a facilita trimiterea e-mailurilor;
-•	Weather API – folosit pentru a colecta date despre vreme și prognoză meteo;
-•	Heroku – pentru a face deploy aplicatiei.
+
+-	Google Cloud Platform – folosit pentru asigurarea unei baze de date SQL;
+-	SendGrid – folosit pentru a facilita trimiterea e-mailurilor;
+-	Weather API – folosit pentru a colecta date despre vreme și prognoză meteo;
+-	Heroku – pentru a face deploy aplicatiei.
+
 Link-ul pentru accesarea aplicației este: 
 https://morning-badlands-01093.herokuapp.com/
+
 Link-uri GitHub:
+
 https://github.com/biancabtcu/CloudComputing-Back
+
 https://github.com/biancabtcu/CloudComputing-Front
+
 Link prezentare video: https://youtu.be/J5IfjxEhjYg
 
 Descriere problemă 
@@ -41,10 +47,10 @@ Datele de iesire sunt lista cu mesaje recente din secțiunea de Recently sent e-
 1.	Metode HTTP
 
 Metodele HTTP folosite în cadrul aplicației sunt următoarele:
-•	GET - Read (Citire) – ne ajută să primim date referitoare la toate e-mailurile trimise care se află în baza de date (senderMail, reciverMail, contentMessage);
-•	POST – Create (Creare) – ne ajută să creăm o nouă înregistrare în baza de date;
-•	PUT – Update (Actualizare) – ne ajută să schimbăm datele dintr-o înregistrare existentă din baza de date;
-•	DELETE – Delete (Ștergere) – ne ajută să stergem o înregistrare din baza de date.
+- GET - Read (Citire) – ne ajută să primim date referitoare la toate e-mailurile trimise care se află în baza de date (senderMail, reciverMail, contentMessage);
+-	POST – Create (Creare) – ne ajută să creăm o nouă înregistrare în baza de date;
+-	PUT – Update (Actualizare) – ne ajută să schimbăm datele dintr-o înregistrare existentă din baza de date;
+-	DELETE – Delete (Ștergere) – ne ajută să stergem o înregistrare din baza de date.
 Aceste operatii de tip CRUD au rolul de a trimite serverului că facem un request de tip citire/creare/actualizare/ștergere.
  
 ![image](https://user-images.githubusercontent.com/105164579/168473966-163de6c1-55f2-42ac-a2fe-fc311cecee4a.png)
