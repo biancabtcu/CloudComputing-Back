@@ -3,7 +3,7 @@ const cors = require('cors');
 const bodyParser = require("body-parser");
 const messagesRouter = require('./routes/messagesRouter');
 const utilsRouter = require('./routes/utilsRouters');
-const {LANGUAGE_ISO_CODE} = require("./utils/dictionaries.js");
+
 
 
 const app = express();
